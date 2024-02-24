@@ -1,0 +1,269 @@
+<html>
+<head>
+    <title>VIII-JADE</title>
+
+
+      <style>
+        body {
+          padding-top: 60px;
+        }
+        .navbar {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          background-color: #288e03;
+          color: white;
+          padding: 10px 0;
+        }
+        .navbar a {
+          color: white;
+          padding: 10px;
+          text-decoration: none;
+        }
+        .section {
+          height: 500px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="navbar">
+        <a href="#purpose">Purpose/Introduction</a>
+        <a href="#students">Name of Teachers & Students</a>
+        <a href="#officers">Officers</a>
+        <a href="#schedule">Schedule</a>
+      </div>
+      <div id="purpose" class="section">
+        <h1>Purpose/Information</h1>
+        Welcome, and a glorious day to all exploring the 8 Jade website! This platform serves as a gateway to delve into the vibrant world of our unique section, 8 Jade. The primary purpose of this site is to provide comprehensive information about our section, foster a sense of community, and celebrate our achievements. As you navigate through the website, you'll discover insights about our students, officers, and schedules. Feel free to explore and get to know more about us - we're thrilled to share our journey with you!
+      </div>
+      <div id="students" class="section">
+
+        <h1>Name of Teachers & Students</h1>
+        <img src="C:\Users\Ryzen\Desktop\3RD QUARTER ICT PT 1\maam kc.jpg" width="350">
+  <img src="C:\Users\Ryzen\Desktop\3RD QUARTER ICT PT 1\maam sndie.jpg" width="350">
+        </style>
+      </head>
+      <body>
+        <table>
+          <tr>
+            <th>Male Students</th>
+            <th>Female Students</th>
+          </tr>
+          <tr>
+            <td>John David T. Alejo</td>
+            <td>Ace Jana T. Abalos</td>
+          </tr>
+          <tr>
+            <td>Prince Timothy S. Clemente</td>
+            <td>Ahlex C. Aquino</td>
+          </tr>
+          <tr>
+              <td>Eduard P. Corpuz</td>
+              <td>Chloe M. Arayan</td>
+            </tr>
+            <tr>
+              <td>Nielle Christian G. De Afria</td>
+              <td>Ziana Raisa Venice Esguerra</td>
+            </tr>
+            <tr>
+              <td>Adrian V. Gonzales</td>
+              <td>Valerie S. Estipona</td>
+            </tr>
+            <tr>
+              <td>Reego C. Idago</td>
+              <td>Alliyah Kyle E. Geronga</td>
+            </tr>
+            <tr>
+              <td>Chevee Miguel V. Lagarejos</td>
+              <td>Julianne Angeli A. Imperial</td>
+            </tr>
+            <tr>
+              <td>Emrick Justin R. Medina</td>
+              <td>Ruejen Ycee T. Juria</td>
+            </tr>
+            <tr>
+              <td>Carl Chester Y. Ordonio</td>
+              <td>Amirah Joy S. Mesina</td>
+            </tr>
+            <tr>
+              <td>Arthur R. Padrid</td>
+              <td>Jurrise Hilary C. Olar</td>
+            </tr>
+            <tr>
+              <td>Casey Marley T. Rivera</td>
+              <td>Lianne Jade B. Punzalan</td>
+            </tr>
+            <tr>
+              <td>Jeremiah Rex L. San Pedro</td>
+              <td>Jesserean Dianne DC. Sarmenta</td>
+      </tr>
+      <tr>
+          <td>Kenneth Angelo A. Ticman</td>
+          <td>Reehzyel Maryxyreen E. Serrano</td>
+        </tr>
+        <tr>
+          <td>Kevin Angelo A. Ticman</td>
+          <td>Carlene Joyce R. Williams</td>
+        </tr>
+          <tr>
+            <td>Vergille Elisiah J. Umusig</td>
+        
+          </tr>
+        </table>
+      </div>
+      <div id="officers" class="section">
+        <h1>Officers</h1>
+        <!-- Add your content here -->
+      </div>
+      <div id="schedule" class="section">
+        <h1>Schedule</h1>
+        <!-- Add your content here -->
+      </div>
+    
+
+
+
+ <script>
+        function changeTextOnHover(myHeader) {
+
+            var headerElement = document.getElementById('myHeader');
+
+
+            headerElement.innerText = 'Feel Free to Explore!';
+        }
+   function initializeOriginalText(myHeader) {
+            
+            var headerElement = document.getElementById('myHeader');
+
+            
+            originalText = headerElement.innerText;
+        }
+
+
+        function resetText() {
+
+            var headerElement = document.getElementById('myHeader');
+
+
+            headerElement.innerText = 'Welcome to the VIII-JADE Website!'; headerElement.getAttribute('data-original-text');
+        }
+    </script>
+<style>
+#myHeader{color:rgb(0, 0, 0);text-align:center;font-size:50}
+#myHeader:hover{color:rgb(253, 245, 245)}
+header{background-color:rgb(9, 197, 9);height:70px;width:100%}
+header:hover{background-color:rgb(12, 94, 12);}
+
+        
+        .footer-link1:hover {
+            color: #9ABAF3
+;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+  .footer-link2:hover {
+            color: #66d9ff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+  .footer-link3:hover {
+            color: #E5B6E5;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+      footer {
+            background-color:forestgreen;
+       
+            padding: 20px;
+            text-align: center;
+            
+        }
+ footer:hover {
+            background-color:green;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            
+        }
+
+
+        
+        .footer-link1 {
+font-family:helvetica;
+            color: cornflowerblue;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+  .footer-link2 {
+font-family:helvetica;
+            color: deepskyblue;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+  .footer-link3 {
+font-family:helvetica;
+            color: plum;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+:hover{color:rgb(253, 245, 245)}
+
+</style>
+<style>
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+
+
+</head>
+<body onload="initializeOriginalText(myHeader)">
+<header>
+<img src="C:\Users\Ryzen\Desktop\3RD QUARTER ICT PT 1\LOGO JADE.jpg" height="100" width="90">
+<h1 id="myHeader" onmouseover="changeTextOnHover(myHeader)" onmouseout="resetText(myHeader)">Welcome to the 8-JADE Website!</h1>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    
+   <footer>
+        <h3> If You Still Want to Know More ABOUT and The UPDATES in VIII-JADE Here is our SOCIAL MEDIA </h3>
+        <nav>
+            <a href="//www.facebook.com/profile.php?id=61552038662226"class="footer-link1">FACEBOOK</a>
+            <a href="scihijadians@gmail.com" class="footer-link2">EMAIL</a>
+            <a href="https://www.instagram.com/scihijadians/" class="footer-link3">INSTAGRAM</a>
+        </nav>
+    </footer>
+    
